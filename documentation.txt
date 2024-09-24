@@ -1,0 +1,21 @@
+
+Steps1. Setup Development Environment- Install PHP version 7.4 or higher.
+- Install Composer globally.
+- Create a new Laravel project using Composer.
+2. Install Filament PHP- Run the composer require command to install Filament into your Laravel project.
+3. Configure Database- Set up your database in the .env file of your Laravel project.
+- Run migrations to create necessary tables.
+4. User Management- Use Laravel's built-in authentication scaffolding for user registration and login.
+- Integrate Filament's admin panel for managing users (CRUD).
+5. Loan Products Management- Create models and migrations for loan products with fields such as Name, Code, Minimum Amount, Maximum Amount, Interest Rate, and Currency.
+- Implement CRUD operations in Filament for managing loan products.
+7. Loan Management- Create models and migrations for loans with fields such as product selection, customer selection, approval status, disbursement details, and repayment details.
+- Implement CRUD operations in Filament for managing loans.
+8. Reporting- Generate reports on loan applications indicating status, amount applied, amount disbursed, amount repaid, and balance.
+- Use Laravel's Eloquent ORM to generate these reports and display them in Filament.
+9. System Requirements Verification- Ensure that all server requirements are met, including PHP version 7.4+.
+10. Testing & Quality Assurance- Write feature tests using PHPUnit to ensure each part of the application works as expected.
+11. Deployment- Deploy your application on a web server or platform that supports PHP applications like Heroku or DigitalOcean App Platform.
+12. Question 1: Array Function- Create a file named array.php in your project directory.
+- Write a function in array.php that iterates over an array of 20 records in batches of 5, printing the index number and value of each item.
+This documentation now includes the additional step for creating the array.php file for Question 1. If you need further details or run into any issues, feel free to ask!
